@@ -1,3 +1,5 @@
+-- Monday Coffee SCHEMAS
+
 CREATE DATABASE MONDAY_COFFEE;
 
 -- Import Rules
@@ -44,4 +46,4 @@ CREATE TABLE sales
 	CONSTRAINT fk_products FOREIGN KEY (product_id) REFERENCES products(product_id),
 	CONSTRAINT fk_customers FOREIGN KEY (customer_id) REFERENCES customers(customer_id) 
 );
-
+-- END of SCHEMAS
